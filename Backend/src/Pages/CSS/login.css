@@ -1,0 +1,107 @@
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f8f8f8, #e0dfdf);
+    margin: 0;
+    padding: 0;
+}
+ */
+ .login-container2 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+    margin: auto auto;
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff5e00;
+    font-weight: bold;
+}
+
+.user-icon {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+ 
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.remember-me input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    background: #ff5e00;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+ 
+@media (max-width: 600px) {
+    .login-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .user-icon {
+        font-size: 35px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}

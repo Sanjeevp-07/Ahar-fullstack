@@ -1,0 +1,87 @@
+/* Container Setup */
+.delivery-container {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header */
+  .delivery-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .delivery-header h1 {
+    color: #ff500e;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .delivery-header p {
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  /* Donation Section */
+  .donation-section h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  
+  /* Donation Cards Grid */
+  .donation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  /* Card Style */
+  .donation-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-left: 5px solid #ff500e;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .donation-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .donation-card h3 {
+    color: #ff500e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .donation-card p {
+    color: #444;
+    margin: 0.3rem 0;
+  }
+  
+  /* Button */
+  .pickup-btn {
+    margin-top: 1rem;
+    background-color: #ff500e;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .pickup-btn:hover {
+    background-color: #e0480d;
+  }
+  

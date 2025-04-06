@@ -1,0 +1,249 @@
+.hero {
+  /*   justify-content: space-between; 
+    display: flex; */
+    padding: 50px;
+    gap: 30px; /* Space between the two sections */
+   /*  img_3_Ahar_Enhanced.png */
+    position: relative;
+    height: 1381px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    color: white;
+    overflow: hidden;
+    top: -20px;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 149, 5, 0.6)); */
+}
+
+.Background{
+    background: url("../Assets/img_3_Ahar_Enhanced_DARK.png") center/cover no-repeat;
+    position: relative;
+    height: 830px;
+    width: 100vw;
+    top: 19ox;
+    left: -63px;
+    bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Identifier {
+  position: absolute;
+  z-index: 2;
+  top: -12px;
+  left: 1508px;
+  font-size: 20px;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.heading{
+    width: 30vw;
+    left: -11px;
+    position: relative;
+    /* left: 306px; */
+    height: 343px;
+    top: 76px;
+}
+.heading p{
+    color: white;
+    font-weight: 700;
+}
+
+.donation-form-container {
+    background: #1b1b1b;
+    padding: 30px;
+    width: 460px;
+    text-align: center;
+    border-radius: 15px;
+   /*  box-shadow: 0 5px 15px rgba(255, 125, 50, 0.3); */
+    height: 530px;
+    position: relative;
+    left: 6vw;
+    top: 20vh;
+}
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .form-subtitle {
+    font-size: 16px;
+    color: #ff9550;
+    font-weight: bold;
+  }
+  
+  .donation-form {
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #2a2a2a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .input-group .icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ff9550;
+    font-size: 18px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff7f50, #ff5733);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(90deg, #ff5733, #ff2e00);
+  }
+  
+
+
+
+
+
+
+/* .hero-left {
+    width: 429px;
+    height: 524px;
+    padding: 20px;
+    position: relative;
+    left: 195px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    top: 138px;
+}
+
+.hero-left h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f5;
+}
+
+button {
+    background-color: #CC7700;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    top: 12px;
+    position: relative;
+}
+
+button:hover {
+    background-color: #CC7700;
+} */
+
+.hero-right {
+    position: relative;
+    right: 270px;
+    display: flex;
+    left: 6px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+
+}
+
+
+.mission-container {
+    max-width: 661px;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+   
+
+}
+
+.col2 {
+    width: 36vw;
+}
+.col2 p {
+    font-size: 19px;
+    font-weight: 500;
+}
+.col2 li {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.Strong{
+    color: black;
+}
+
+.point_1 {
+    font-size: 21px;
+    color: black;
+    line-height: 33px;
+}
+
+  
+  .mission-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FF5E00;
+  }
+  
+  .mission-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #FF5E00;
+}
+  
+  .mission-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mission-list li {
+    margin: 8px 0;
+  }
+  

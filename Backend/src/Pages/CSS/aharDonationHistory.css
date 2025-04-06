@@ -1,0 +1,122 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    padding: 20px;
+}
+ */
+/* Top Container (Header) */
+
+
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ff5e00, #fb8846); /* Gradient from orange to peach */
+    padding: 20px 30px;
+   /*  border-radius: 15px; */
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.top-container:hover {
+    box-shadow: 0px 7px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Website Name */
+.website-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* Donation History Title */
+.history-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Profile Picture */
+.profile-pic {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Donation Container */
+.container {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Donation Cards */
+.donation-card {
+    background: linear-gradient(135deg, #ffffff, #f8f9fc);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-left: 5px solid #ff6600;
+}
+
+.donation-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Donation Card Text */
+.donation-card p {
+    font-size: 16px;
+    margin: 6px 0;
+    color: #444;
+}
+
+/* Status Styling */
+.delivered {
+    color: #28a745;
+    font-weight: 700;
+}
+
+.pending {
+    color: #dc3545;
+    font-weight: 700;
+}
+
+
+.container5 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 13px;
+    margin: auto;
+    margin-top: 43px;
+}

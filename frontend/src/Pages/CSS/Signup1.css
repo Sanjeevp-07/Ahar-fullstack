@@ -1,0 +1,227 @@
+/* Global container */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f7f7f7;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Signup box */
+.signup-box {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Title */
+.signup-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Subtitle */
+.signup-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Form labels */
+.signup-form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+  display: block;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  font-size: 14px;
+}
+
+.signup-form input:focus {
+  border-color: #ff500e;
+  box-shadow: 0 0 5px rgba(255, 80, 14, 0.3);
+  outline: none;
+}
+
+/* Password group */
+.password-group {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+@media (min-width: 480px) {
+  .password-group {
+    flex-direction: row;
+  }
+}
+
+/* Section heading */
+.restaurant-title {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff500e;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff500e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.signup-btn:hover {
+  background-color: #e2470c;
+}
+
+/* OR text */
+.social-text {
+  text-align: center;
+  margin: 20px 0 10px;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+}
+
+.social-text::before,
+.social-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ddd;
+}
+
+.social-text::before {
+  left: 0;
+}
+
+.social-text::after {
+  right: 0;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background: #ff500e;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  background: #e2470c;
+}
+
+/* Specific platform colors (optional) */
+.facebook { background: #3b5998; }
+.twitter { background: #1da1f2; }
+.google { background: #db4437; }
+.facebook:hover { background: #2d4373; }
+.twitter:hover { background: #0d95e8; }
+.google:hover { background: #c23321; }
+
+
+/* Toggle button */
+.mode-toggle {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  background: #ff500e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 155px;
+}
+
+.mode-toggle:hover {
+  background: #e2470c;
+}
+
+/* Dark mode styles */
+.signup-container.dark {
+  background: #1e1e1e;
+}
+
+.signup-container.dark .signup-box {
+  background: #2c2c2c;
+  color: #f1f1f1;
+}
+
+.signup-container.dark input {
+  background: #3a3a3a;
+  color: white;
+  border-color: #555;
+}
+
+.signup-container.dark .signup-form label {
+  color: #ddd;
+}
+
+.signup-container.dark .signup-btn {
+  background-color: #ff500e;
+}
+
+.signup-container.dark .signup-btn:hover {
+  background-color: #e2470c;
+}
+/* Light Mode Default */
+.signup-title {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Dark Mode Styling */
+.signup-container.dark .signup-title {
+  color: #fff; /* Or any light color you prefer */
+}
